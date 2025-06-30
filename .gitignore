@@ -1,0 +1,15 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.swp
+
+# Environment
+.env
+
+# Image results
+*.tif
+*.jpg
+*.png
+
+# Output folders
+processed_output/

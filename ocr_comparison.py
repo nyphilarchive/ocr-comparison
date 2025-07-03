@@ -66,10 +66,10 @@ def convert_jp2_to_jpeg(input_path):
 		subprocess.run([
 			"convert", input_path,
 			"-resize", "100%",
-			"-colorspace", "Gray",
-			"-contrast",           # Apply contrast enhancement (can be repeated)
-			"-contrast",
-			"-strip",
+			# "-colorspace", "Gray",
+			# "-contrast",           # Apply contrast enhancement (can be repeated)
+			# "-contrast",
+			# "-strip",
 			"-quality", "100",
 			jpg_path
 		], check=True)
